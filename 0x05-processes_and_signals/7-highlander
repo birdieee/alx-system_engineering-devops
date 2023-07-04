@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# This script displays "To infinity and beyond" indefinitely with a sleep of 2 seconds between each iteration
-# It also prints "I am invincible!!!" when receiving a SIGTERM signal
+# script that displays To infinity and beyond indefinitely.
 
-trap "echo 'I am invincible!!!'" SIGTERM
+trap 'echo "I am invincible!!!"' SIGTERM
 
 while true; do
-    echo "To infinity and beyond"
-    sleep 2
+	echo "To infinity and beyond"
+	sleep 2
 done
+
