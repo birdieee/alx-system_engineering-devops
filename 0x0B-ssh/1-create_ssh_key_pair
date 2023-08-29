@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# generating  ssh key pairs
+# generating ssh key pairs
 
 ssh-keygen -t rsa -b 4906 -P betty -f school
