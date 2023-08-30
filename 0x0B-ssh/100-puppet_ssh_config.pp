@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # usig puppet to make changes to our configuration file
-
+'
 file { 'etc/ssh/ssh_config':
 	ensure => present,
 
@@ -10,5 +10,6 @@ content =>"
 	host*
 	IdentifyFile ~/.ssh/school
 	PasswordAuthentication no
+	",	
 
 }
