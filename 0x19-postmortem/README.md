@@ -38,7 +38,7 @@ Enable status monitoring. Use an uptime-monitoring service such as UptimeRobot t
 Automate error handling. In response to this error, I wrote a Puppet manifest to automate fixing the error if it occurs again.
 Even the best programmers make mistakes, so it is important to have safeguards in place to catch errors before they cause outages. By testing thoroughly, enabling status monitoring, and automating error handling, you can reduce the risk of outages caused by application errors.
 
-Additional notes
+# Additional notes
 
 The Puppet manifest you wrote is a great example of how to automate error handling. It is important to share this knowledge with other developers so that they can learn from your experience.
 It is also important to remember that even though we are programmers, we are still human. We make mistakes. It is important to be humble and to learn from our mistakes.
